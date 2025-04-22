@@ -59,6 +59,7 @@ def reset_failed_attempts():
     st.session_state.failed_attempts = 0
 
 # UI
+st.set_page_config(layout="wide", page_title="Personal Library Manager")
 st.title("🔐 Username + Passkey Secure Storage")
 
 # Navigation
